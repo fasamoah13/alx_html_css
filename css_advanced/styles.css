@@ -384,4 +384,65 @@ footer {
     }
 }
 
+/* ===== Footer Section ===== */
+footer {
+    background-color: #0d47a1; /* Dark primary color from Figma */
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Footer headings */
+footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Footer links */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffca28; /* Accent color for hover effect */
+}
+
+/* Footer social icons */
+footer .social-icons {
+    margin: 20px 0;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+/* Footer bottom text */
+footer p {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* Responsive footer */
+@media screen and (max-width: 768px) {
+    footer h3 {
+        font-size: 1rem;
+    }
+    footer a {
+        display: block;
+        margin: 5px 0;
+    }
+    footer .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+}
+
+
 
