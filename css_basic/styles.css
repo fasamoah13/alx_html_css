@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Custom styles for your page */
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
