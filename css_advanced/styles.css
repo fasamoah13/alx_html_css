@@ -159,3 +159,71 @@ footer {
     font-size: 0.9rem;
 }
 
+/* ===== Videos Section ===== */
+.videos-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background for contrast */
+    text-align: center;
+}
+
+.videos-section h2 {
+    font-size: 2rem;
+    color: #0d47a1; /* Main theme color */
+    margin-bottom: 40px;
+}
+
+/* Video cards container */
+.videos-section .video-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+    gap: 30px; /* Space between cards */
+    justify-content: center; /* Center cards */
+}
+
+/* Each video card */
+.videos-section .video-card {
+    background-color: #f5f5f5; /* Light gray for card */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Video thumbnail */
+.videos-section .video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Video info */
+.videos-section .video-card .video-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.videos-section .video-card .video-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #0d47a1;
+}
+
+.videos-section .video-card .video-info p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Responsive: stack videos on small screens */
+@media screen and (max-width: 768px) {
+    .videos-section .video-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .videos-section .video-card {
+        width: 100%;
+    }
+}
+
+
