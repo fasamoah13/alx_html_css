@@ -1,1 +1,86 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #333;
+}
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:active {
+    color: #FF6565;
+}
+
+/* HEADER */
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+/* HERO */
+.hero {
+    background: url("images/hero.jpg") no-repeat center/cover;
+    height: 90vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 24, 40, 0.7);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.cta-btn {
+    background: #FF6565;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+    opacity: 0.9;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
