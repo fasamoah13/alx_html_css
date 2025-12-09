@@ -1,0 +1,15 @@
+/* WHAT WE DO */
+.what-we-do {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-item {
+    width: 22%;
+}
