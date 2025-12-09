@@ -1,0 +1,54 @@
+/* ----- HAMBURGER ICON (hidden on desktop) ----- */
+.hamburger {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/* ----- MOBILE MODE ----- */
+@media screen and (max-width: 480px) {
+
+    /* Show hamburger */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Hide desktop menu */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: #000;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    /* Show when active */
+    nav ul.active {
+        display: flex;
+    }
+
+    /* Animate hamburger to "X" */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+}
