@@ -1,0 +1,19 @@
+/* Gentle floating idle animation */
+.item,
+.result-item {
+    animation: idleFloat 4s ease-in-out infinite;
+}
+
+@keyframes idleFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+/* Hover effects */
+.item:hover {
+    transform: scale(1.1) translateY(-6px);
+}
+
+.result-item:hover {
+    transform: rotate(10deg) scale(1.1);
+}
