@@ -1,0 +1,23 @@
+/* RESULTS */
+.results {
+    background: url('images/results-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.badge {
+    width: 22%;
+    background: #FF6565;
+    padding: 40px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
